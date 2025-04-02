@@ -10,8 +10,8 @@
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
         </Address>
-        <NearestAirport>Sky Harbor</NearestAirport>
         <Rating>4.2</Rating>
     </Hotel>
     <Hotel>
@@ -23,8 +23,8 @@
             <City>Chicago</City>
             <State>IL</State>
             <Zip>60611</Zip>
+            <NearestAirport>O'Hare</NearestAirport>
         </Address>
-        <NearestAirport>O'Hare</NearestAirport>
         <Rating>4.5</Rating>
     </Hotel>
     <Hotel>
@@ -37,8 +37,8 @@
             <City>New York</City>
             <State>NY</State>
             <Zip>10001</Zip>
+            <NearestAirport>JFK</NearestAirport>
         </Address>
-        <NearestAirport>JFK</NearestAirport>
     </Hotel>
     <Hotel>
         <Name>Hyatt Regency</Name>
@@ -49,8 +49,8 @@
             <City>Miami</City>
             <State>FL</State>
             <Zip>33139</Zip>
+            <NearestAirport>Miami International</NearestAirport>
         </Address>
-        <NearestAirport>Miami International</NearestAirport>
         <Rating>4.0</Rating>
     </Hotel>
     <Hotel>
@@ -62,8 +62,8 @@
             <City>Los Angeles</City>
             <State>CA</State>
             <Zip>90028</Zip>
+            <NearestAirport>LAX</NearestAirport>
         </Address>
-        <NearestAirport>LAX</NearestAirport>
     </Hotel>
     <Hotel>
         <Name>Four Seasons</Name>
@@ -74,8 +74,8 @@
             <City>Las Vegas</City>
             <State>NV</State>
             <Zip>89119</Zip>
+            <NearestAirport>McCarran</NearestAirport>
         </Address>
-        <NearestAirport>McCarran</NearestAirport>
         <Rating>4.8</Rating>
     </Hotel>
     <Hotel>
@@ -87,8 +87,8 @@
             <City>San Francisco</City>
             <State>CA</State>
             <Zip>94108</Zip>
+            <NearestAirport>SFO</NearestAirport>
         </Address>
-        <NearestAirport>SFO</NearestAirport>
     </Hotel>
     <Hotel>
         <Name>Omni Hotel</Name>
@@ -99,8 +99,8 @@
             <City>Dallas</City>
             <State>TX</State>
             <Zip>75202</Zip>
+            <NearestAirport>DFW</NearestAirport>
         </Address>
-        <NearestAirport>DFW</NearestAirport>
         <Rating>4.3</Rating>
     </Hotel>
     <Hotel>
@@ -112,8 +112,8 @@
             <City>Austin</City>
             <State>TX</State>
             <Zip>78701</Zip>
+            <NearestAirport>Austin-Bergstrom</NearestAirport>
         </Address>
-        <NearestAirport>Austin-Bergstrom</NearestAirport>
         <Rating>4.6</Rating>
     </Hotel>
     <Hotel>
@@ -125,7 +125,7 @@
             <City>Atlanta</City>
             <State>GA</State>
             <Zip>30326</Zip>
+            <NearestAirport>Hartsfield-Jackson</NearestAirport>
         </Address>
-        <NearestAirport>Hartsfield-Jackson</NearestAirport>
     </Hotel>
 </Hotels>
