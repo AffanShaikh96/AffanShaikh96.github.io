@@ -1,131 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels>
-    <Hotel>
-        <Name>Westin</Name>
-        <Phone>480-968-8885</Phone>
-        <Phone>800-937-8461</Phone>
-        <Address>
-            <Number>11</Number>
-            <Street>E. 7th St</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
-            <Zip>85281</Zip>
-            <NearestAirport>Sky Harbor</NearestAirport>
-        </Address>
-        <Rating>4.2</Rating>
-    </Hotel>
-    <Hotel>
-        <Name>Marriott Downtown</Name>
-        <Phone>312-555-1234</Phone>
-        <Address>
-            <Number>540</Number>
-            <Street>Michigan Ave</Street>
-            <City>Chicago</City>
-            <State>IL</State>
-            <Zip>60611</Zip>
-            <NearestAirport>O'Hare</NearestAirport>
-        </Address>
-        <Rating>4.5</Rating>
-    </Hotel>
-    <Hotel>
-        <Name>Hilton Garden Inn</Name>
-        <Phone>212-555-5678</Phone>
-        <Phone>212-555-8765</Phone>
-        <Address>
-            <Number>45</Number>
-            <Street>Broadway</Street>
-            <City>New York</City>
-            <State>NY</State>
-            <Zip>10001</Zip>
-            <NearestAirport>JFK</NearestAirport>
-        </Address>
-    </Hotel>
-    <Hotel>
-        <Name>Hyatt Regency</Name>
-        <Phone>305-555-7890</Phone>
-        <Address>
-            <Number>400</Number>
-            <Street>Collins Ave</Street>
-            <City>Miami</City>
-            <State>FL</State>
-            <Zip>33139</Zip>
-            <NearestAirport>Miami International</NearestAirport>
-        </Address>
-        <Rating>4.0</Rating>
-    </Hotel>
-    <Hotel>
-        <Name>Ritz-Carlton</Name>
-        <Phone>310-555-9999</Phone>
-        <Address>
-            <Number>123</Number>
-            <Street>Sunset Blvd</Street>
-            <City>Los Angeles</City>
-            <State>CA</State>
-            <Zip>90028</Zip>
-            <NearestAirport>LAX</NearestAirport>
-        </Address>
-    </Hotel>
-    <Hotel>
-        <Name>Four Seasons</Name>
-        <Phone>702-555-2468</Phone>
-        <Address>
-            <Number>3960</Number>
-            <Street>Las Vegas Blvd</Street>
-            <City>Las Vegas</City>
-            <State>NV</State>
-            <Zip>89119</Zip>
-            <NearestAirport>McCarran</NearestAirport>
-        </Address>
-        <Rating>4.8</Rating>
-    </Hotel>
-    <Hotel>
-        <Name>Fairmont</Name>
-        <Phone>415-555-1357</Phone>
-        <Address>
-            <Number>950</Number>
-            <Street>Mason St</Street>
-            <City>San Francisco</City>
-            <State>CA</State>
-            <Zip>94108</Zip>
-            <NearestAirport>SFO</NearestAirport>
-        </Address>
-    </Hotel>
-    <Hotel>
-        <Name>Omni Hotel</Name>
-        <Phone>214-555-2469</Phone>
-        <Address>
-            <Number>555</Number>
-            <Street>S. Lamar St</Street>
-            <City>Dallas</City>
-            <State>TX</State>
-            <Zip>75202</Zip>
-            <NearestAirport>DFW</NearestAirport>
-        </Address>
-        <Rating>4.3</Rating>
-    </Hotel>
-    <Hotel>
-        <Name>W Hotel</Name>
-        <Phone>512-555-3698</Phone>
-        <Address>
-            <Number>200</Number>
-            <Street>Lavaca St</Street>
-            <City>Austin</City>
-            <State>TX</State>
-            <Zip>78701</Zip>
-            <NearestAirport>Austin-Bergstrom</NearestAirport>
-        </Address>
-        <Rating>4.6</Rating>
-    </Hotel>
-    <Hotel>
-        <Name>InterContinental</Name>
-        <Phone>404-555-4789</Phone>
-        <Address>
-            <Number>3315</Number>
-            <Street>Peachtree Rd</Street>
-            <City>Atlanta</City>
-            <State>GA</State>
-            <Zip>30326</Zip>
-            <NearestAirport>Hartsfield-Jackson</NearestAirport>
-        </Address>
-    </Hotel>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel Rating="4.5">
+    <Name>Marriott Marquis</Name>
+    <Phone>212-398-1900</Phone>
+    <Phone>800-228-9290</Phone>
+    <Address NearestAirport="JFK International">
+      <Number>1535</Number>
+      <Street>Broadway</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10036</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>Hilton Hawaiian Village</Name>
+    <Phone>808-949-4321</Phone>
+    <Address NearestAirport="Honolulu International">
+      <Number>2005</Number>
+      <Street>Kalia Rd</Street>
+      <City>Honolulu</City>
+      <State>HI</State>
+      <Zip>96815</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Fairmont San Francisco</Name>
+    <Phone>415-772-5000</Phone>
+    <Address NearestAirport="SFO International">
+      <Number>950</Number>
+      <Street>Mason St</Street>
+      <City>San Francisco</City>
+      <State>CA</State>
+      <Zip>94108</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.8">
+    <Name>Ritz-Carlton Chicago</Name>
+    <Phone>312-266-1000</Phone>
+    <Address NearestAirport="O'Hare International">
+      <Number>160</Number>
+      <Street>E Pearson St</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60611</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>Hyatt Regency Orlando</Name>
+    <Phone>407-284-1234</Phone>
+    <Address NearestAirport="Orlando International">
+      <Number>9801</Number>
+      <Street>International Dr</Street>
+      <City>Orlando</City>
+      <State>FL</State>
+      <Zip>32819</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hotel del Coronado</Name>
+    <Phone>619-435-6611</Phone>
+    <Address NearestAirport="San Diego International">
+      <Number>1500</Number>
+      <Street>Orange Ave</Street>
+      <City>Coronado</City>
+      <State>CA</State>
+      <Zip>92118</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>Waldorf Astoria Beverly Hills</Name>
+    <Phone>310-860-6666</Phone>
+    <Address NearestAirport="LAX">
+      <Number>9850</Number>
+      <Street>Wilshire Blvd</Street>
+      <City>Beverly Hills</City>
+      <State>CA</State>
+      <Zip>90210</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>Four Seasons Seattle</Name>
+    <Phone>206-749-7000</Phone>
+    <Address NearestAirport="Seattle-Tacoma International">
+      <Number>99</Number>
+      <Street>Union St</Street>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98101</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Breakers Palm Beach</Name>
+    <Phone>561-655-6611</Phone>
+    <Address NearestAirport="Palm Beach International">
+      <Number>1</Number>
+      <Street>South County Road</Street>
+      <City>Palm Beach</City>
+      <State>FL</State>
+      <Zip>33480</Zip>
+    </Address>
+  </Hotel>
+
 </Hotels>
