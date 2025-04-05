@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<Hotel> <!-- Error: The root element name is Hotel, instead of Hotels -->
   <Hotel Rating="4.5">
     <Name>Marriott Marquis</Name>
     <Phone>212-398-1900</Phone>
